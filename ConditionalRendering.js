@@ -32,6 +32,7 @@ export default function Check() {
       <h2>{value % 2 !== 0 && "odd"}</h2>
 
       {/* using OR Operator */}
+
       <h2> {value % 2 === 0 || "Odd"}</h2>
       <h2>{value % 2 !== 0 || "Even"}</h2>
     </div>
